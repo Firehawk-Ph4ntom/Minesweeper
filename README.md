@@ -10,4 +10,4 @@ A simple Minesweeper game made using Java. The game includes custom and sourced 
   - Audio assets were used from my mod Tiberium Wars Firestorm. You can find the mod here: [https://github.com/Firehawk-Ph4ntom/Tiberium-Wars-Firestorm](here)
 
 - License
-  - This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+  - This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE) file for details.
