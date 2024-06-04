@@ -15,10 +15,10 @@ public class MinesweeperGUI extends JFrame implements ActionListener
     private JMenu gameMenu = new JMenu("Menu"); // menu
     // menu elements (for difficulties and restart)
     private JMenuItem helpMenuItem = new JMenuItem("Help"); 
-    private JMenuItem easyMenuItem = new JMenuItem("Easy");; 
-    private JMenuItem mediumMenuItem = new JMenuItem("Medium");;
-    private JMenuItem hardMenuItem = new JMenuItem("Hard");;
-    private JMenuItem restartMenuItem = new JMenuItem("Restart");;
+    private JMenuItem easyMenuItem = new JMenuItem("Easy");
+    private JMenuItem mediumMenuItem = new JMenuItem("Medium");
+    private JMenuItem hardMenuItem = new JMenuItem("Hard");
+    private JMenuItem restartMenuItem = new JMenuItem("Restart");
     private JLabel flagsLabel; // Label to display number of flags
     private int flagsAvailable; // Number of flags available
     private boolean firstClick; // flag for first click (for mine generation)
@@ -173,9 +173,9 @@ public class MinesweeperGUI extends JFrame implements ActionListener
     }
 
     // difficulties:
-    // easy 5x5 board
-    // med 10x20 board
-    // hard 15x45 board
+    // easy 10x10 board
+    // med 15x15 board
+    // hard 20x20 board
     private void diffEasy(ActionEvent e) {
         restartGame(10, 10);
     }
